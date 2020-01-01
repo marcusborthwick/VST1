@@ -25,7 +25,7 @@ void MainComponent::paint (Graphics& g)
     g.fillAll (getLookAndFeel().findColour (ResizableWindow::backgroundColourId));
 
     g.setFont (Font (16.0f));
-    g.setColour (Colours::white);
+    g.setColour (Colours::red);
     g.drawText ("This is your first VST Project!", getLocalBounds(), Justification::centred, true);
 }
 
